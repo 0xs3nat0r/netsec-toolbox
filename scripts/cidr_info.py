@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Print details about an IPv4/IPv6 network or address in CIDR notation.
+"""Print details about an IPv4/IPv6 network or address in CIDR.
 
 Usage:
     python3 scripts/cidr_info.py 192.168.1.0/24
