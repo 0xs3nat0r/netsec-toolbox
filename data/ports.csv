@@ -31,3 +31,47 @@ port,protocol,service,description
 8443,tcp,https-alt,Alternative HTTPS
 27017,tcp,mongodb,MongoDB
 51820,udp,wireguard,WireGuard VPN
+69,udp,tftp,Trivial FTP
+88,both,kerberos,Kerberos authentication
+111,both,rpcbind,RPC port mapper
+119,tcp,nntp,Usenet news
+135,tcp,msrpc,Microsoft RPC
+137,udp,netbios-ns,NetBIOS name service
+138,udp,netbios-dgm,NetBIOS datagram
+139,tcp,netbios-ssn,NetBIOS session
+162,udp,snmptrap,SNMP traps
+179,tcp,bgp,Border Gateway Protocol
+443,udp,quic,QUIC / HTTP/3
+500,udp,isakmp,IPsec IKE key exchange
+514,udp,syslog,Syslog
+636,tcp,ldaps,LDAP over TLS
+853,tcp,dns-over-tls,DNS over TLS
+873,tcp,rsync,rsync
+990,tcp,ftps,FTP over TLS
+1080,tcp,socks,SOCKS proxy
+1521,tcp,oracle,Oracle database listener
+1812,udp,radius,RADIUS authentication
+1813,udp,radius-acct,RADIUS accounting
+1883,tcp,mqtt,MQTT
+2049,both,nfs,Network File System
+2181,tcp,zookeeper,Apache ZooKeeper
+2375,tcp,docker,Docker API (unencrypted - do not expose)
+2376,tcp,docker-tls,Docker API over TLS
+3128,tcp,squid,Squid HTTP proxy
+4500,udp,ipsec-nat-t,IPsec NAT traversal
+5060,both,sip,Session Initiation Protocol
+5061,tcp,sips,SIP over TLS
+5222,tcp,xmpp,XMPP client
+5353,udp,mdns,Multicast DNS
+5601,tcp,kibana,Kibana
+5672,tcp,amqp,RabbitMQ / AMQP
+5984,tcp,couchdb,CouchDB
+6443,tcp,kubernetes-api,Kubernetes API server
+6667,tcp,irc,IRC
+8000,tcp,http-alt,Common dev HTTP port
+8883,tcp,mqtts,MQTT over TLS
+9090,tcp,prometheus,Prometheus
+9200,tcp,elasticsearch,Elasticsearch HTTP
+9418,tcp,git,Git protocol
+10050,tcp,zabbix-agent,Zabbix agent
+11211,both,memcached,Memcached
