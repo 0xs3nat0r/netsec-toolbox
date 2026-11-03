@@ -1,0 +1,17 @@
+cidr,name,rfc,description
+0.0.0.0/8,this-network,RFC1122,"Source-only ""this network"" addresses"
+10.0.0.0/8,private,RFC1918,Private network (Class A)
+100.64.0.0/10,cgnat,RFC6598,Carrier-grade NAT shared address space
+127.0.0.0/8,loopback,RFC1122,Loopback
+169.254.0.0/16,link-local,RFC3927,Link-local / APIPA
+172.16.0.0/12,private,RFC1918,Private network (Class B)
+192.0.2.0/24,test-net-1,RFC5737,Documentation examples
+192.168.0.0/16,private,RFC1918,Private network (Class C)
+198.51.100.0/24,test-net-2,RFC5737,Documentation examples
+203.0.113.0/24,test-net-3,RFC5737,Documentation examples
+224.0.0.0/4,multicast,RFC5771,IPv4 multicast
+240.0.0.0/4,reserved,RFC1112,Reserved for future use
+::1/128,loopback,RFC4291,IPv6 loopback
+fc00::/7,unique-local,RFC4193,IPv6 unique local addresses
+fe80::/10,link-local,RFC4291,IPv6 link-local
+2001:db8::/32,documentation,RFC3849,IPv6 documentation prefix

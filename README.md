@@ -11,7 +11,8 @@
 |---|---|
 | `cheatsheets/` | شورتکات‌ها و دستورات پرکاربرد (Markdown) |
 | `scripts/` | اسکریپت‌های اولیه‌ی قابل توسعه (Python / Bash) |
-| `data/` | داده‌های جدولی کوچک (CSV) مثل پورت‌های رایج |
+| `data/` | جداول CSV: پورت‌های رایج، کدهای HTTP، رنج‌های IP رزرو/خصوصی، انواع ICMP، فلگ‌های TCP |
+| `scripts/` | `port_check.py`، `ports_lookup.py`، `tls_expiry.py`، `cidr_info.py`، `dns_timing.py` |
 | `scripts/validate.py` | بررسی ساختار فایل‌های داده و شیت‌ها |
 
 ## شروع سریع / Quick start
@@ -22,6 +23,9 @@ cd netsec-toolbox
 python3 scripts/validate.py          # check data & cheatsheet format
 python3 scripts/port_check.py example.com 80 443
 python3 scripts/ports_lookup.py 22
+python3 scripts/cidr_info.py 192.168.1.0/24
+python3 scripts/tls_expiry.py example.com
+python3 scripts/dns_timing.py example.com --resolver 1.1.1.1
 ```
 
 ## مشارکت / Contributing

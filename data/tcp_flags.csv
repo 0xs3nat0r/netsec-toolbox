@@ -1,0 +1,9 @@
+flag,name,bit,description
+FIN,Finish,0x01,Sender has no more data; starts connection teardown
+SYN,Synchronize,0x02,Initiates a connection and synchronizes sequence numbers
+RST,Reset,0x04,Abruptly aborts the connection
+PSH,Push,0x08,Deliver buffered data to the application immediately
+ACK,Acknowledgment,0x10,Acknowledgment number field is valid
+URG,Urgent,0x20,Urgent pointer field is significant
+ECE,ECN-Echo,0x40,ECN-capable peer / congestion experienced
+CWR,Congestion Window Reduced,0x80,Sender reduced its congestion window

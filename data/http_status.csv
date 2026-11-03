@@ -1,0 +1,26 @@
+code,name,category,description
+200,OK,success,Request succeeded
+201,Created,success,Resource created
+204,No Content,success,Success with no response body
+301,Moved Permanently,redirect,Permanent redirect
+302,Found,redirect,Temporary redirect
+304,Not Modified,redirect,Cached copy is still valid
+307,Temporary Redirect,redirect,Temporary redirect keeping the HTTP method
+308,Permanent Redirect,redirect,Permanent redirect keeping the HTTP method
+400,Bad Request,client error,Malformed request
+401,Unauthorized,client error,Authentication required or failed
+403,Forbidden,client error,Authenticated but not allowed
+404,Not Found,client error,Resource does not exist
+405,Method Not Allowed,client error,HTTP method not supported for this resource
+408,Request Timeout,client error,Client took too long to send the request
+409,Conflict,client error,Conflicts with current resource state
+410,Gone,client error,Resource permanently removed
+413,Content Too Large,client error,Request body too large
+418,I'm a teapot,client error,Joke status from RFC 2324
+422,Unprocessable Content,client error,Well-formed but semantically invalid
+429,Too Many Requests,client error,Rate limited
+500,Internal Server Error,server error,Generic server failure
+501,Not Implemented,server error,Server does not support the request
+502,Bad Gateway,server error,Invalid response from upstream server
+503,Service Unavailable,server error,Server overloaded or in maintenance
+504,Gateway Timeout,server error,Upstream server timed out

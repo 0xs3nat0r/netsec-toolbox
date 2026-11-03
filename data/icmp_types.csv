@@ -1,0 +1,15 @@
+type,code,name,description
+0,0,Echo Reply,Reply to a ping
+3,0,Destination Unreachable (net),Network unreachable
+3,1,Destination Unreachable (host),Host unreachable
+3,3,Destination Unreachable (port),Port unreachable
+3,4,Fragmentation Needed,Packet too big but DF bit set (used by PMTU discovery)
+3,13,Communication Administratively Prohibited,Blocked by a firewall/filter
+5,0,Redirect (network),Use a different gateway for this network
+5,1,Redirect (host),Use a different gateway for this host
+8,0,Echo Request,Ping
+11,0,Time Exceeded (TTL),TTL reached zero in transit (used by traceroute)
+11,1,Time Exceeded (reassembly),Fragment reassembly timed out
+12,0,Parameter Problem,Pointer indicates the error
+13,0,Timestamp Request,Request for time information
+14,0,Timestamp Reply,Reply with time information
