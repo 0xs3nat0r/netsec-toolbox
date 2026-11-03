@@ -1,0 +1,18 @@
+name: auto-merge-owner-prs
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    if: github.event.pull_request.user.login == 'mehdirzfx'
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh pr merge "$PR_URL" --merge
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
