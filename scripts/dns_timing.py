@@ -39,7 +39,7 @@ def query_once(name: str, resolver: str, timeout: float) -> tuple[float, int, in
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="DNS response time check")
+    parser = argparse.ArgumentParser(description="DNS response time")
     parser.add_argument("name")
     parser.add_argument("--resolver", default="1.1.1.1")
     parser.add_argument("--count", type=int, default=5)
