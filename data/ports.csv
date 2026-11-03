@@ -1,0 +1,33 @@
+port,protocol,service,description
+20,tcp,ftp-data,FTP data transfer
+21,tcp,ftp,FTP control
+22,tcp,ssh,Secure Shell
+23,tcp,telnet,Telnet (unencrypted)
+25,tcp,smtp,Mail transfer
+53,both,dns,Domain Name System
+67,udp,dhcp,DHCP server
+68,udp,dhcp,DHCP client
+80,tcp,http,Web
+110,tcp,pop3,Mail retrieval
+123,udp,ntp,Network Time Protocol
+143,tcp,imap,Mail retrieval
+161,udp,snmp,SNMP
+389,tcp,ldap,Directory services
+443,tcp,https,Web over TLS
+445,tcp,smb,Windows file sharing
+465,tcp,smtps,SMTP over TLS
+587,tcp,submission,Mail submission
+993,tcp,imaps,IMAP over TLS
+995,tcp,pop3s,POP3 over TLS
+1194,udp,openvpn,OpenVPN
+1433,tcp,mssql,Microsoft SQL Server
+1723,tcp,pptp,PPTP VPN
+3306,tcp,mysql,MySQL
+3389,tcp,rdp,Remote Desktop
+5432,tcp,postgresql,PostgreSQL
+5900,tcp,vnc,VNC
+6379,tcp,redis,Redis
+8080,tcp,http-alt,Alternative HTTP
+8443,tcp,https-alt,Alternative HTTPS
+27017,tcp,mongodb,MongoDB
+51820,udp,wireguard,WireGuard VPN
